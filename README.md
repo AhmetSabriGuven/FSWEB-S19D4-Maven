@@ -42,7 +42,7 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
  * ```controller``` paketi altında ```MovieController``` ve ```ActorController ```adında 2 tane controller yazmalısınız.
  * Amacımız CRUD işlemlerini tanımlayan endpointler yazmak.
  * [GET]/workintech/movies => tüm movie listini dönmeli.
- * [GET]/workintech/movies/{id} => İlgili id deki burger objesini dönmeli.
+ * [GET]/workintech/movies/{id} => İlgili id deki movie objesini dönmeli.
  * [POST]/workintech/movies/ => Bir adet movie objesi ve bir adet actor objesi alır ve ikisini de veritabanına ilişkileri ile birlikte kaydeder.
  * [PUT]/workintech/movies/{id} => İlgili id deki movie objesinin değerlerini yeni gelen data ile değiştirir.
  * [DELETE]/workintech/movies/{id} => İlgili id değerindeki movie objesini veritabanından siler.
